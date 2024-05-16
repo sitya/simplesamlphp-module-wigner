@@ -1,0 +1,15 @@
+msgid ""
+msgstr ""
+
+msgid "Wigner emailaddress"
+msgstr "Wigneres emailcím"
+
+msgid "Password"
+msgstr "Spamszűrési jelszó"
+
+msgid "Wigner federational (eduID) login"
+msgstr "Wigner - eduID belépés"
+
+msgid "Please enter your wigner emailaddress and password in the form below."
+msgstr "Adja meg a wigneres emailcímét és spamszűrési jelszavát!"
+
