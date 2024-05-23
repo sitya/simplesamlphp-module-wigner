@@ -33,13 +33,13 @@
     </div>
     {%- endif %}
 
-    <h1>{{ 'Wigner federational (eduID) login'|trans }}</h1>
+    <h1>{{ 'HUN-REN Wigner FK federational (eduID) login'|trans }}</h1>
 
-    <p>{{ 'Please enter your wigner emailaddress and password in the form below.'|trans }}</p>
+    <p>{{ 'Please enter your HUN-REN Wigner FK email address and password in the form below.'|trans }}</p>
     <div class="center-form login-form-start">
         <form id="f" class="pure-form pure-form-aligned" action="{{ formURL }}" method="post" name="f" spellcheck="false">
                 <div class="pure-control-group">
-                    <label for="username">{{ 'Wigner emailaddress'|trans }}</label>
+                    <label for="username">{{ 'Email address'|trans }}</label>
                     <input id="username" {{ forceUsername ? 'disabled' }} placeholder="{{ username }}" type="text" name="username" class="edge"
             {%- if not forceUsername %} tabindex="1" value="{{ username }}" autocomplete="username" {% endif %}
             {%- if not forceUsername and not username %} autofocus {% endif %} >
