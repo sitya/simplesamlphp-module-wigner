@@ -9,6 +9,7 @@
 
 :root {
   --theme-colour: #ebe8e1;
+  --button-colour: #7f1b2e;
   --theme-up-complement: hsl(88.06500, 69.92200%, 73.92100%);
   --theme-dn-complement: hsl(28.06500, 69.92200%, 73.92100%);
 }
@@ -49,12 +50,7 @@
 }
 .pure-button-primary,
 .pure-button-red {
-  background-color: var(--theme-colour);
-}
-
-.pure-button-red:hover,
-.pure-button-red:focus {
-  background: var(--theme-dn-complement);
+  background-color: var(--button-colour);
 }
 
 .logo-footer,
@@ -67,4 +63,3 @@
   height: 3.5rem;
   font-size: .8rem;
 }
-
